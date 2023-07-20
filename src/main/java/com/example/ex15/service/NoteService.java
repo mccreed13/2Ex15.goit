@@ -12,7 +12,7 @@ import java.util.*;
 
 @Service
 @RequiredArgsConstructor
-public class NoteService {
+public class NoteService{
     private final NoteRepository noteRepository;
     private final NamedParameterJdbcTemplate jdbcTemplate;
 
